@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: yellow;
+    font-size: 24px;
+}
+
+img {
+    border-radius: 15px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}

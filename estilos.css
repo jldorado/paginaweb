@@ -35,3 +35,8 @@ img:hover {
 img:hover {
     transform: rotate(10deg);
 }
+@media (max-width: 600px) {
+    body {
+        background-color: lightgray;
+    }
+}

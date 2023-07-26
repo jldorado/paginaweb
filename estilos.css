@@ -1,9 +1,10 @@
 body {
     background-color: rgb(46, 122, 188);
+    background-image: url("Dibujoa.png");
 }
 
 h1 {
-    color: yellow;
+    color: white;
     font-size: 24px;
 }
 

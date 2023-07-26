@@ -11,9 +11,7 @@ h1 {
         margin: 20px;
         padding: 10px;
     }
-h1:hover {
-        transform: rotate(10deg);
-    }
+
 img {
 
     margin-top: 10px;
@@ -33,4 +31,7 @@ img {
 img:hover {
     transform: scale(1.1);
 
+}
+img:hover {
+    transform: rotate(10deg);
 }

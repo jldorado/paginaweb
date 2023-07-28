@@ -1,19 +1,23 @@
 body {
-    background-color: rgb(97, 156, 208);
-    /*  background-image: url("Dibujoa.png")*/
+    /* Establece la imagen de fondo del cuerpo de la página */
+    /*background-image: url("Dibujoa.png");*/
+    background-color: aqua; 
 }
 
 h1 {
+    /* Establece el color y tamaño de fuente del encabezado h1 */
     color: rgb(17, 125, 80);
     font-size: 24px;
 }
-    div {
-        margin: 20px;
-        padding: 10px;
-    }
+
+div {
+    /* Establece los márgenes y el relleno de los elementos div */
+    margin: 20px;
+    padding: 10px;
+}
 
 img {
-
+    /* Establece los márgenes, el borde redondeado, el ancho y la altura de las imágenes */
     margin-top: 10px;
     margin-right: 15px;
     margin-bottom: 20px;
@@ -22,21 +26,13 @@ img {
     margin: 10px;
     width: 150px;
     height: 150px;
-
-
-}
-img {
     transition: transform 0.5s;
 }
-img:hover {
-    transform: scale(1.1);
 
-}
 img:hover {
+    /* Aumenta el tamaño de las imágenes al pasar el cursor sobre ellas */
+    transform: scale(1.1);
     transform: rotate(10deg);
 }
-@media (max-width: 600px) {
-    body {
-        background-color: lightgray;
-    }
-}
+
+

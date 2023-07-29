@@ -2,7 +2,7 @@
 var toggleButton = document.getElementById("toggle"); //Conseguimos la referencia del objeto que queremos al html usando el id
 var gatitoBoton = document.getElementById("gatitoBoton");
 var imagenDeGatito = document.getElementById("gatito");
-
+var gatitoBotonon = document.getElementById("gatitoBotonon");
 
 //Declaramos nuestras funciones
 function changeBackgroundColor() {
@@ -21,6 +21,13 @@ gatitoBoton.addEventListener("click",
 ()=>{
     PrintMessage();
     imagenDeGatito.style.display = "none";
+}
+)
+
+gatitoBotonon.addEventListener("click",
+()=>{
+    PrintMessage();
+    imagenDeGatito.style.display = "block";
 }
 )
 

@@ -1,13 +1,18 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 body {
     /* Establece la imagen de fondo del cuerpo de la página */
     /*background-image: url("Dibujoa.png");*/
-    background-color: aqua; 
+    background-color: rgb(75, 157, 215); 
 }
 
 h1 {
     /* Establece el color y tamaño de fuente del encabezado h1 */
-    color: rgb(17, 125, 80);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(14, 72, 57);
     font-size: 24px;
+    
 }
 
 div {

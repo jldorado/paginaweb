@@ -4,8 +4,9 @@
 
 body {
     /* Establece la imagen de fondo del cuerpo de la página */
-    /*background-image: url("Dibujoa.png");*/
-    background-color: rgb(75, 157, 215); 
+    /*background-image: url("Dibujo.png");*/
+    background-image: url("Fondo.jpg");
+    background-size: 1220px 1700px; 
 }
 
 h1 {
@@ -41,5 +42,17 @@ img:hover {
     transform: scale(1.1);
     transform: rotate(10deg);
 }
+       /* Estilos CSS para las tarjetas */
+       .category-card {
+        display: inline-block;
+        width: 200px;
+        height: 150px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        cursor: pointer;
+    }
 
 
